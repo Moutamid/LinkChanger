@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
             db.child("link").updateChildren(updateLink).addOnCompleteListener(new OnCompleteListener<Void>() {
                 @Override
                 public void onComplete(@NonNull Task<Void> task) {
-                    if (task.isSuccessful()){
+                    if (task.isSuccessful()) {
                         link.setText("");
                         Toast.makeText(MainActivity.this, "Link is Updated", Toast.LENGTH_SHORT).show();
                     }
