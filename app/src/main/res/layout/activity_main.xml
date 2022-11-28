@@ -29,4 +29,15 @@
         android:layout_marginEnd="25dp"
         android:layout_below="@id/et_link" />
 
+    <Button
+        android:id="@+id/rotate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rotate Screen"
+        android:background="@drawable/et_bg"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="25dp"
+        android:layout_below="@id/updateBtn" />
+
 </RelativeLayout>
